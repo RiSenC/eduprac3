@@ -13,3 +13,13 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Материалы задания и макеты: в репозиторий не попадают
+*.docx
+/design/
+
+# Локальные логи сборки и запусков
+*.log
+
+# Служебные каталоги Gradle/Kotlin
+.kotlin/
